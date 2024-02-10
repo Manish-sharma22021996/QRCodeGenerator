@@ -3,8 +3,6 @@ const btn =  document.getElementById("btn");
 const img =  document.getElementById("img");
 
 
-console.log(inp, img, btn);
-
 btn.addEventListener('click', () => {
     const inputValue = inp.value;
     if(!inputValue){
